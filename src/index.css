@@ -1,0 +1,54 @@
+/*
+  Configurações GERAIS da página (reset + tokens de design).
+  Estilos específicos de cada componente ficam nos respectivos *.module.css,
+  conforme pedido no enunciado do Checkpoint 4.
+*/
+
+:root {
+  --cor-fundo: #14151a;
+  --cor-superficie: #1c1e26;
+  --cor-borda: #2a2c36;
+  --cor-texto: #f2f1ec;
+  --cor-texto-suave: #9a9ca8;
+  --cor-acento: #ff2d6b;
+
+  --fonte-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --fonte-corpo: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cor-acento);
+  outline-offset: 2px;
+}

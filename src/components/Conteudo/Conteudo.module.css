@@ -1,0 +1,18 @@
+.conteudo {
+  flex: 1;
+  padding: 2.5rem clamp(1.25rem, 5vw, 4rem) 3rem;
+}
+
+.subtitulo {
+  font-family: var(--fonte-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  margin: 0 0 0.35rem;
+}
+
+.legenda {
+  color: var(--cor-texto-suave);
+  margin: 0 0 1.75rem;
+  font-size: 0.95rem;
+}

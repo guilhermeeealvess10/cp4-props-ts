@@ -1,0 +1,11 @@
+.footer {
+  padding: 1.5rem clamp(1.25rem, 5vw, 4rem);
+  border-top: 1px solid var(--cor-borda);
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--cor-texto-suave);
+}
